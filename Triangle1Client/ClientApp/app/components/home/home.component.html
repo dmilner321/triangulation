@@ -1,0 +1,9 @@
+<h1>Triangulation!</h1>
+<p>Welcome to Triangulation, an app for finding triangles!!! The X,Y origin starts at the base of the F1 triangle</p>
+<div>
+    <label>Enter a row(A-F) and column(1-12) to get the vertices for a triangle Ex - F1:</label><br />
+    <input type="text" name="gridLocation" [(ngModel)]="gridLocation" required>
+    <button (click)="getTriangle(gridLocation)">Get Triangle</button>
+</div><br />
+<div>{{triangleresult}}</div><br />
+<img src="/triangulation1.PNG" />

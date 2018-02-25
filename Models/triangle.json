@@ -1,0 +1,10 @@
+﻿{ // Triangle
+  "GridLocation": null,
+  "v1x": 0,
+  "v1y": 0,
+  "v2x": 0,
+  "v2y": 0,
+  "v3x": 0,
+  "v3y": 0,
+  "orientation": null
+}
