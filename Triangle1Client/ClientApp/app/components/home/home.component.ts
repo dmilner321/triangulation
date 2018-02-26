@@ -20,6 +20,7 @@ export class HomeComponent {
     }
 
     getTriangle(gridLocation: string) {
+        //TODO:  extract to provider
         this.http.get('api/Triangulation/GetTriangle?gridlocation='+gridLocation).subscribe(result => {
             this.triangle = result.json() as Triangle;
             this.triangleresult = JSON.stringify(this.triangle);
